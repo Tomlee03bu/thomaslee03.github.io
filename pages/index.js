@@ -66,29 +66,34 @@ export default function Home() {
         <div className="laptop:mt-20 mt-10">
           <div className="mt-5">
             <h1
-              ref={textOne}
-              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5"
-            >
-              {data.headerTaglineOne}
-            </h1>
-            <h1
-              ref={textTwo}
-              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
-            >
-              {data.headerTaglineTwo}
-            </h1>
-            <h1
-              ref={textThree}
-              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
-            >
-              {data.headerTaglineThree}
-            </h1>
-            <h1
-              ref={textFour}
-              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
-            >
-              {data.headerTaglineFour}
-            </h1>
+  ref={textOne}
+  className="text-3xl tablet:text-5xl laptop:text-6xl font-bold leading-tight"
+>
+  {data.headerTaglineOne}
+</h1>
+
+<h2
+  ref={textTwo}
+  className="text-xl tablet:text-3xl laptop:text-4xl font-medium opacity-90 leading-tight"
+>
+  {data.headerTaglineTwo}
+</h2>
+
+<h2
+  ref={textThree}
+  className="text-lg tablet:text-2xl laptop:text-3xl font-medium opacity-80 leading-tight"
+>
+  {data.headerTaglineThree}
+</h2>
+
+<h2
+  ref={textFour}
+  className="text-lg tablet:text-2xl laptop:text-3xl font-medium opacity-80 leading-tight"
+>
+  {data.headerTaglineFour}
+</h2>
+
+
           </div>
 
           <Socials className="mt-2 laptop:mt-5" />
@@ -100,9 +105,7 @@ export default function Home() {
             {data.projects.map((project) => (
               <WorkCard
                 key={project.id}
-                img={project.imageSrc}
-                name={project.title}
-                description={project.description}
+                project={project}
                 onClick={() => window.open(project.url)}
               />
             ))}
