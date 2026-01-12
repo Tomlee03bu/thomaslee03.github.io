@@ -24,8 +24,18 @@
   ],
 
   "projects": [
+    { "id": "1",
+      "title": "Mini-Minecraft",
+      "description":"A custom Vulkan voxel engine showcasing real-time rendering techniques including multi-pass transparency, animated texture atlases, procedural rain particles, dynamic sky transitions, and physically inspired water shading with Fresnel reflection, refraction, and ripple simulation.",
+      "images": [
+         "/projects/rain.gif",
+        "/projects/watertexture.jpg"
+      ],
+      "url": "#"
+
+    },
   {
-    "id": "1",
+    "id": "2",
     "title": "CPU Rasterizer (Software Renderer)",
     "description": "A full CPU-based graphics pipeline implementing vertex transformation, triangle rasterization, depth buffering, clipping, and barycentric interpolation, along with a suite of custom fragment shaders including Blinn–Phong, toon shading, wireframe, and iridescent materials.",
     "images": [
@@ -37,7 +47,7 @@
     "url": "#"
   },
   {
-    "id": "2",
+    "id": "3",
     "title": "Half-Edge Mesh Editor & Subdivision Toolkit",
     "description": "An interactive geometry-processing system featuring a complete half-edge mesh data structure, real-time topological visualization, mesh editing operations (vertex/edge/face manipulation, triangulation, insertion), and smooth Catmull–Clark subdivision with clean, animated previews.",
     "images": [
@@ -48,7 +58,7 @@
     "url": "#"
   },
   {
-    "id": "3",
+    "id": "4",
     "title": "FK/IK Animation Editor",
     "description": "A custom animation tool supporting interactive pose editing, FK/IK switching, limb-based CCD IK, quaternion transforms, and spline-interpolated keyframing—built to mimic professional DCC rigging workflows with real-time chain solving.",
     "images": [
@@ -58,14 +68,14 @@
     "url": "#"
   },
   {
-    "id": "4",
+    "id": "5",
     "title": "Insaniquarium 3D — Potential Field Simulation",
     "description": "A 3D reimagining of Insaniquarium using attraction and repulsion potential fields to simulate natural fish behavior and emergent motion.",
     "imageSrc": "/projects/vivarium.gif",
     "url": "#"
   },
   {
-    "id": "5",
+    "id": "6",
     "title": "OpenGL Procedural Noise Shaders",
     "description": "A collection of real-time GLSL shaders exploring procedural noise (fBM, Worley/Voronoi), stylized material rendering, and post-processing effects, including matcap shading with Sobel edge detection for a clean, illustrative look.",
     "images": [
@@ -74,20 +84,6 @@
         "/projects/silver.jpg",
         "/projects/worleynoise.gif"
         ],
-    "url": "#"
-  },
-  {
-    "id": "6",
-    "title": "Storyboard Pro 22 Tool Suite",
-    "description": "A suite of production tools integrated into Storyboard Pro 22, including a custom non-modal dialog system, automated layer renaming, frame exporting, cropping utilities, and matte creation workflows.",
-    "imageSrc": "/projects/storyboardtools.png",
-    "url": "#"
-  },
-  {
-    "id": "7",
-    "title": "Interlulu LoRA Pipeline",
-    "description": "A full generative art pipeline built with ComfyUI, LoRA training, dataset preprocessing, automated captioning, and a custom cloud backend powering stylized character generation.",
-    "imageSrc": "/projects/interlulu.png",
     "url": "#"
   }
 ]

@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 
-const WorkCard = ({ project, onClick }) => {
+const WorkCard = ({ project }) => {
   const [index, setIndex] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
   const [userInteracted, setUserInteracted] = useState(false);
@@ -44,10 +44,8 @@ const WorkCard = ({ project, onClick }) => {
 
 
   return (
-    <div
-      className="overflow-hidden rounded-lg p-2 laptop:p-4 first:ml-0 link"
-      onClick={onClick}
-    >
+<div className="overflow-hidden rounded-lg p-2 laptop:p-4 first:ml-0">
+
       <div
         className="relative rounded-lg overflow-hidden transition-all ease-out duration-300 h-48 mob:h-auto"
         style={{ height: "600px" }}
