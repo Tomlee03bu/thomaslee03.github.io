@@ -24,7 +24,18 @@
   ],
 
   "projects": [
-    { "id": "1",
+    {
+  "id": "1",
+  "title": "Monte Carlo Path Tracer",
+  "description": "A physically based Monte Carlo path tracer built in C++ supporting global illumination, Multiple Importance Sampling, and diffuse, microfacet, and specular materials for low-noise, realistic rendering.",
+  "images": [
+    "/projects/GummyBear.jpg",
+    "/projects/jelly.jpg",
+    "/projects/BMOinCornell.jpg"
+  ],
+  "url": "#"
+},
+    { "id": "2",
       "title": "Mini-Minecraft",
       "description":"A custom Vulkan voxel engine showcasing real-time rendering techniques including multi-pass transparency, animated texture atlases, procedural rain particles, dynamic sky transitions, and physically inspired water shading with Fresnel reflection, refraction, and ripple simulation.",
       "images": [
@@ -35,7 +46,7 @@
 
     },
   {
-    "id": "2",
+    "id": "3",
     "title": "CPU Rasterizer (Software Renderer)",
     "description": "A full CPU-based graphics pipeline implementing vertex transformation, triangle rasterization, depth buffering, clipping, and barycentric interpolation, along with a suite of custom fragment shaders including Blinn–Phong, toon shading, wireframe, and iridescent materials.",
     "images": [
@@ -47,7 +58,7 @@
     "url": "#"
   },
   {
-    "id": "3",
+    "id": "4",
     "title": "Half-Edge Mesh Editor & Subdivision Toolkit",
     "description": "An interactive geometry-processing system featuring a complete half-edge mesh data structure, real-time topological visualization, mesh editing operations (vertex/edge/face manipulation, triangulation, insertion), and smooth Catmull–Clark subdivision with clean, animated previews.",
     "images": [
@@ -58,7 +69,7 @@
     "url": "#"
   },
   {
-    "id": "4",
+    "id": "5",
     "title": "FK/IK Animation Editor",
     "description": "A custom animation tool supporting interactive pose editing, FK/IK switching, limb-based CCD IK, quaternion transforms, and spline-interpolated keyframing—built to mimic professional DCC rigging workflows with real-time chain solving.",
     "images": [
@@ -68,14 +79,14 @@
     "url": "#"
   },
   {
-    "id": "5",
+    "id": "6",
     "title": "Insaniquarium 3D — Potential Field Simulation",
     "description": "A 3D reimagining of Insaniquarium using attraction and repulsion potential fields to simulate natural fish behavior and emergent motion.",
     "imageSrc": "/projects/vivarium.gif",
     "url": "#"
   },
   {
-    "id": "6",
+    "id": "7",
     "title": "OpenGL Procedural Noise Shaders",
     "description": "A collection of real-time GLSL shaders exploring procedural noise (fBM, Worley/Voronoi), stylized material rendering, and post-processing effects, including matcap shading with Sobel edge detection for a clean, illustrative look.",
     "images": [
